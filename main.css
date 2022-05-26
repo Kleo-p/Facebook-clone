@@ -2,10 +2,10 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(247, 247, 247);
+  background-color: #f0f2f5;
 }
-:root{
-    --icon: rgb(0, 153, 255)
+:root {
+  --icon: #1877f2;
 }
 li {
   list-style: none;
@@ -21,79 +21,83 @@ a {
   flex-wrap: wrap;
 }
 
-.part-a{
-    display: flex;
-    flex-direction: row;
-    margin: 21vh 23vh;
+.part-a {
+  display: flex;
+  flex-direction: row;
+  margin: 21vh 23vh;
 }
-.part-a .first{
-    padding: 40px 25px;
-    width: 100%;
-
-}
-.part-a .first h1{
-    font-size: 3.6rem;
+.part-a .first {
     margin: 10px 0;
-    color: rgb(0, 153, 255);
+  padding: 40px 25px;
+  width: 100%;
 }
-.part-a .first h3{
-    font-size: 1.8rem;
-    font-weight: 200;
-    margin: 0;
-    color: rgb(30, 30, 31);
-    width: 90%;
+.part-a .first h1 {
+  font-size: 3.6rem;
+  margin: 10px 0;
+  color: var(--icon);
+}
+.part-a .first h3 {
+  font-size: 1.7rem;
+  font-weight: 200;
+  margin: 0;
+  color: #1c1e21;
+  width: 100%;
 }
 
-.all .part-a .sec{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.all .part-a .sec {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 36px;
 }
-.all .part-a .sec form{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(253, 252, 252);
-    padding: 10px;
-    background-color: white;
-    box-sizing: border-box;
-    border-radius: 8px;
-    box-shadow: 1px 1px 4px rgb(175, 175, 175);
+.all .part-a .sec form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(253, 252, 252);
+  padding: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 2px 7px 12px 3px rgb(235, 228, 228);
 }
-.all .part-a .sec form .fo{
-    padding: 13px 20px;
-    width: 300px;
-    margin: 4px 0px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    border-radius: 7px;
-    border-color: azure;
-    border: 1px solid rgb(197, 196, 196);
+.all .part-a .sec form .fo {
+  padding: 13px 20px;
+  width: 330px;
+  margin: 4px 0px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  border-radius: 7px;
+  border-color: azure;
+  border: 1px solid rgb(197, 196, 196);
 }
-.all .part-a .sec form .btn{
-    padding: 11px 20px;
-    width: 345px;
-    margin-top: 10px;
-    background-color: var(--icon);
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+.all .part-a .sec form .btn {
+  padding: 11px 20px;
+  width: 373px;
+  margin-top: 10px;
+  background-color: var(--icon);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
-.all .part-a .sec form .next{
-    width: 200px;
-    margin: 25px 0 11px 72px;
-    padding: 13px;
-    background-color: rgb(24, 180, 24);
-    font-size: 16px;
+.all .part-a .sec form .next {
+  width: 200px;
+  margin: 25px 0 11px 89px;
+  padding: 15px 10px;
+  background-color: #42b72a;
+  font-size: 16px;
 }
-.all .part-a .sec form a{
-    font-size: 14px;
-    padding: 10px 0 20px 0;
-    margin: 1px 0;
-    border-bottom: 1.9px solid rgb(214, 214, 214);
+.all .part-a .sec form a {
+  font-size: 14px;
+  padding: 10px 0 20px 0;
+  margin: 1px 0;
+  color: #1877f2;
+  border-bottom: 1.9px solid rgb(214, 214, 214);
 }
-.all .part-a .sec h4{
-    font-size: 13px;
+.all .part-a .sec h4 {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 30px;
 }
 .all .part-a .sec h4 span{
-    
+    font-weight: 600;
 }

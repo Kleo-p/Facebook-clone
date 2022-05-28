@@ -27,13 +27,13 @@ a {
   margin: 21vh 23vh;
 }
 .part-a .first {
-    margin: 10px 0;
+  margin: 10px 5px 7px 5px;
   padding: 40px 25px;
   width: 100%;
 }
 .part-a .first h1 {
-  font-size: 3.6rem;
-  margin: 10px 0;
+  font-size: 3.4rem;
+  margin: 10px 5px;
   color: var(--icon);
 }
 .part-a .first h3 {
@@ -58,17 +58,17 @@ a {
   background-color: white;
   box-sizing: border-box;
   border-radius: 8px;
-  box-shadow: 2px 7px 12px 3px rgb(235, 228, 228);
+  box-shadow: 1px 3px 5px 5px rgb(224, 225, 236);
 }
 .all .part-a .sec form .fo {
-  padding: 13px 20px;
+  padding: 15px 20px;
   width: 330px;
   margin: 4px 0px;
   margin-bottom: 8px;
   font-size: 16px;
-  border-radius: 7px;
-  border-color: azure;
-  border: 1px solid rgb(197, 196, 196);
+  border-radius: 5px;
+  border-color: rgb(248, 248, 250);
+  border: 1px solid rgb(231, 230, 230);
 }
 .all .part-a .sec form .btn {
   padding: 11px 20px;
@@ -98,6 +98,76 @@ a {
   font-weight: 100;
   margin: 30px;
 }
-.all .part-a .sec h4 span{
-    font-weight: 600;
+.all .part-a .sec h4 span {
+  font-weight: 600;
+}
+a {
+  color: rgb(141, 140, 140);
+}
+.footer {
+  background-color: white;
+  color: rgb(148, 147, 147);
+  padding: 20px 200px 0px 180px;
+  font-size: 11.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .first ul {
+  margin: 0px;
+}
+.footer .first li {
+  padding: 0 5px;
+  /* line-height: .1px; */
+  /* border-bottom: 1px solid rgb(212, 211, 211); */
+}
+.hr {
+  background-color: #ccd0d5;
+  margin: 0 5px;
+}
+.footer .first .bt {
+  border: 1px solid #ccd0d5;
+  padding: 0 8px;
+  font-size: 12px;
+  margin: 0 10px;
+  position: relative;
+  line-height: 0.6rem;
+}
+.footer ul {
+  display: flex;
+  padding: 0;
+}
+.footer ul li {
+  /* padding: 1px 10px;
+  margin: 0; */
+  line-height: 0.4rem;
+}
+.footer .sec li {
+  padding: 1px 20px 0 0;
+}
+.footer .third li {
+  padding: 1px 20px 0 0;
+}
+.footer .fourth li {
+  padding: 1px 20px 0 0;
+}
+.footer .fifth li {
+  margin: 20px 0 10px 0;
+  padding: 0;
+}
+
+
+li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.all .part-a .sec form .btn:hover{
+  background-color: #1872e7;
+  cursor: pointer;
+}
+.all .part-a .sec form .next:hover{
+  background-color: #3faa29;
+  cursor: pointer;
+}
+.all .part-a .sec h4 span:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
